@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hourly & Daily Weather</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main__app">
+      <div class="main__app__buttons">
+        <span class="material-icons"> menu</span>
+        <span class="material-icons"> search</span>
+      </div>
+      <div class="weather__banner">
+        <p class="city__name">Seattle</p>
+        <p class="main__temperature">79°</p>
+        <p class="main__weather__condition">Rainy</p>
+        <div class="max__min__temperatures">
+          <p>H:93°</p>
+          <p>L:68°</p>
+        </div>
+        <img src="./weather-assets/rainy.png" alt="rainy-image" />
+      </div>
+      <div class="hourly__forecast">
+        <div class="hourly__banner">
+          <img src="./images/time.png" alt="clock-image" />
+          <p>HOURLY FORECAST</p>
+        </div>
+        <div class="hourly__weather">
+          <div class="weather__now">
+            <p>Now</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>1PM</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>2PM</p>
+            <img src="./weather-assets/mostly-cloudy.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>3PM</p>
+            <img src="./weather-assets/partly-cloudy.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>4PM</p>
+            <img src="./weather-assets/sleet.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>5PM</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>6PM</p>
+            <img src="./weather-assets/snow.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>7PM</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>8PM</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+          <div class="weather__now">
+            <p>9PM</p>
+            <img src="./weather-assets/sunny.png" alt="" />
+            <p>79°</p>
+          </div>
+        </div>
+      </div>
+      <div class="ten__days__weather">
+        <div class="ten__days__banner">
+          <span class="material-icons calendar__icon"> calendar_month </span>
+          <p>10-DAY FORECAST</p>
+        </div>
+        <hr />
+        <div class="ten__days__forecast today">
+          <p>Today</p>
+          <img src="./weather-assets/rainy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Fri</p>
+          <img src="./weather-assets/sunny.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Sat</p>
+          <img src="./weather-assets/rainy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Sun</p>
+          <img src="./weather-assets/sunny.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Mon</p>
+          <img src="./weather-assets/rainy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Tue</p>
+          <img src="./weather-assets/sunny.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Wed</p>
+          <img src="./weather-assets/foggy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Thu</p>
+          <img src="./weather-assets/sunny.png" alt="" />
+          <div class="ten__days__max__min">
+            <div class="ten__days__max__min">
+              <p>59°</p>
+              <p>/</p>
+              <p>79°</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Fri</p>
+          <img src="./weather-assets/rainy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+        <hr />
+        <div class="ten__days__forecast">
+          <p>Sat</p>
+          <img src="./weather-assets/windy.png" alt="" />
+          <div class="ten__days__max__min">
+            <p>59°</p>
+            <p>/</p>
+            <p>79°</p>
+          </div>
+        </div>
+      </div>
+      <div class="detailed__information">
+        <div class="first__layer">
+          <div class="feels__like">
+            <div class="feels__like__container">
+              <img src="./images/thermometer.png" alt="" />
+              <p>Feels Like</p>
+            </div>
+            <p class="feels__like__value">100°</p>
+          </div>
+          <div class="sunrise__sunset">
+            <div class="sunrise__sunset__container">
+              <img src="./images/sun.png" alt="" />
+              <p>Sunrise & Sunset</p>
+            </div>
+            <div class="sunrise__container">
+              <img class="sunrise__image" src="./images/sunrise.png" alt="" />
+              <p class="sunrise__value">07:55</p>
+            </div>
+            <div class="sunset__container">
+              <img class="sunset__image" src="./images/sunset.png" alt="" />
+              <p class="sunset__value">04:52</p>
+            </div>
+          </div>
+        </div>
+        <div class="second__layer">
+          <div class="wind">
+            <div class="wind__container">
+              <img src="./images/wind.png" alt="" />
+              <p>Wind</p>
+            </div>
+            <p class="wind__value">14 km/h</p>
+          </div>
+          <div class="visibility">
+            <div class="visibility__container">
+              <img src="./images/visibility.png" alt="" />
+              <p>Visibility</p>
+            </div>
+            <p class="visibility__value">16km</p>
+          </div>
+        </div>
+        <div class="third__layer">
+          <div class="humidity">
+            <div class="humidity__container">
+              <img src="./images/humidity.png" alt="" />
+              <p>Humidity</p>
+            </div>
+            <p class="humidity__value">2000</p>
+          </div>
+          <div class="pressure">
+            <div class="pressure__container">
+              <img src="./images/pressure.png" alt="" />
+              <p>Pressure</p>
+            </div>
+            <p class="pressure__value">1000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
